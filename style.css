@@ -1,0 +1,108 @@
+body {
+	font-family: 'Roboto Mono', monospace;
+	color: #3A4750;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border: solid #3A4750 1px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transition: opacity 1s ease-in-out;
+}
+
+img:hover {
+	opacity: 0.7;
+	transition: opacity .60s ease-in-out;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 1px;
+}
+
+#click {
+	text-align: center;
+	font-weight: bold;
+}
+
+#click:hover {
+color: #c93850;
+}
+
+.underline {
+	position: relative;
+	font-size: 19px;
+}
+
+.underline:after {
+	content:' ';
+	position: absolute;
+	top:100%;
+	left:50%;
+	width: 70%;
+	border:2px solid #C1D1FA;
+	border-radius:8px;
+	box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+	transform:translateX(-50%);
+}
+
+.subheader {
+	text-align: center;
+	margin-top: 1px; 
+	font-size: 12px;
+}
+
+.summary{
+	text-align: center;
+	margin-top: 1em;
+}
+
+a {
+	text-decoration: none;
+	box-shadow: inset 0 -5px 0 #66d3f4;
+	color: inherit;	
+}
+
+a:hover {
+	background: #66d3f4;
+	color: white;
+}
+
+hr {
+	margin-left: 30px;
+	margin-right: 30px;
+	border: 0;
+	height: 0;
+	border-top: 1px dashed rgba(0, 0, 0, 0.1);
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+}
+
+em {
+	background: #99ffbb;
+	color: black;
+}
+
+span {
+	font-size: 12px;
+}
+
+i {
+	font-size: 12px;
+}
+
+#head, #content {
+	margin: 20px;
+}
+
+#content {
+	display: none;
+}
+
+footer {
+	text-align: center;
+	font-size: 6px;
+	letter-spacing: 2px;
+}
